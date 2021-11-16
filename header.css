@@ -1,25 +1,61 @@
+body {
+  background-color: rgb(255, 145, 0);
+  font-family: Roboto, sans-serif;
+}
 .headerET {
-  display: block;
+  display: flex;
   height: 95px;
   width: 100%;
-  background-color: rgb(39,114,178);
-  border: 1px solid red;
+  background-color: rgb(39, 114, 178);
+  padding-bottom: 1%;
+  /* border: 1px solid red; */
 }
 
 .logoET {
-  display: inline-block;
   height: 90px;
   width: 28%;
-  border: 1px solid blue;
   margin-left: 5%;
+}
+.logoET p {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 60%;
+}
+#logoTagLine {
+  font-size: 14px;
+  color: white;
+  font-style: italic;
+  margin-left: 39%;
 }
 
 .navBarET {
-  display: inline-block;
   height: 49px;
-  width: 55%;
-  border: 1px solid blue;
+  width: 59%;
+  /* border: 1px solid blue; */
   margin-left: 5%;
-  margin-bottom: 1%;
+  margin-top: 2%;
+  /* margin-bottom: 12%; */
 }
 
+.navBarET > div {
+  display: flex;
+  gap: 10%;
+  margin: 2%;
+  /* border: 1px solid gray; */
+}
+
+.navBarET div a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.navBarET div a p {
+  font-size: 14px;
+  color: lightgray;
+  line-height: 0%;
+}
+
+.navBarET div a p:hover {
+  color: white;
+}
