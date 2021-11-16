@@ -1,0 +1,25 @@
+.headerET {
+  display: block;
+  height: 95px;
+  width: 100%;
+  background-color: rgb(39,114,178);
+  border: 1px solid red;
+}
+
+.logoET {
+  display: inline-block;
+  height: 90px;
+  width: 28%;
+  border: 1px solid blue;
+  margin-left: 5%;
+}
+
+.navBarET {
+  display: inline-block;
+  height: 49px;
+  width: 55%;
+  border: 1px solid blue;
+  margin-left: 5%;
+  margin-bottom: 1%;
+}
+
