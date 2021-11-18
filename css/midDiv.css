@@ -1,0 +1,59 @@
+.midDiv {
+  height: 460px;
+  width: 100%;
+}
+
+.topMidDiv {
+  display: flex;
+  height: 230px;
+  width: 100%;
+  /* border: green; */
+  margin-left: 4%;
+}
+
+.topMidDiv > div {
+  margin: 2%;
+  height: 155px;
+  width: 360px;
+}
+
+.bottomMidDiv {
+  display: flex;
+  height: 230px;
+  width: 100%;
+  /* border: green; */
+  margin-left: 4%;
+}
+
+.bottomMidDiv > div {
+  margin: 2%;
+  height: 155px;
+  width: 360px;
+}
+
+.midDivImages {
+  height: 60px;
+  width: 54px;
+  font-size: 40px;
+
+  color: rgb(15, 0, 0);
+  margin-left: 42%;
+  margin-top: 1%;
+}
+
+#headingMidDiv {
+  color: rgb(34, 34, 34);
+  margin-left: 28%;
+  margin-top: 0%;
+}
+
+#captionText {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(68, 68, 68);
+}
+
+.midDiv i:hover{
+  color: orange;
+}
+
