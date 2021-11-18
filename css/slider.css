@@ -21,13 +21,16 @@ body,
 }
 
 .slide1 {
-  background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg");
+  background-color: darkorange;
+  /* background-image: url("https://static.pexels.com/photos/302889/pexels-photo-302889.jpeg"); */
 }
 .slide2 {
-  background-image: url("https://static.pexels.com/photos/302892/pexels-photo-302892.jpeg");
+  background-color: darkorange;
+  /* background-image: url("https://static.pexels.com/photos/302892/pexels-photo-302892.jpeg"); */
 }
 .slide3 {
-  background-image: url("https://static.pexels.com/photos/226633/pexels-photo-226633.jpeg");
+  background-color: rgb(27, 27, 27);
+  /* background-image: url("https://static.pexels.com/photos/226633/pexels-photo-226633.jpeg"); */
 }
 
 .slide-content {
@@ -66,3 +69,80 @@ body,
   right: 0;
   margin-right: 30px;
 }
+
+/* my code chnages */
+
+.imageAndText {
+  display: flex;
+  height: 500px;
+  width: 90%;
+  /* border: 1px solid blue; */
+}
+
+.imageDiv {
+  /* display: inline-block; */
+  height: 500px;
+  width: 35%;
+  /* border: 1px solid red; */
+  margin-right: 5%;
+}
+
+.imageDiv img {
+  height: 100%;
+}
+
+.textDiv {
+  margin-top: 8%;
+  height: 100px;
+  width: 59%;
+  /* border: 1px solid red; */
+}
+
+.textDiv p {
+  font-size: 52px;
+  font-weight: 600;
+  margin-top: 0%;
+}
+
+.textDiv p:nth-child(2) {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#thirdDivText {
+  color: darkorange;
+}
+#thirdDivPara {
+  font-size: 54px;
+}
+
+#courcesBtn {
+  height: 40px;
+  width: 25%;
+  border: 1px solid black;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+#courcesBtn:hover {
+  background-color: black;
+  color: darkorange;
+}
+
+#courcesBtnThird {
+  height: 40px;
+  width: 25%;
+  border: 1px solid gold;
+  background-color: transparent;
+  font-size: 16px;
+  color: white;
+}
+
+#courcesBtnThird:hover {
+  background-color: darkorange;
+  color: black;
+}
+
+/* sliders end */
