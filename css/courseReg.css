@@ -1,0 +1,37 @@
+.courseAndRegBtn {
+  min-height: 412px;
+  width: 100%;
+  border: 1px solid;
+  background-image: url(http://www.training.topperskills.com/wp-content/uploads/2017/08/section-background.jpg?id=985);
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+
+.courseAndRegBtn p {
+  font-size: 32px;
+  font-weight: 500;
+  color: aliceblue;
+  margin-left: 20%;
+  margin-top: 12%;
+}
+
+.courseAndRegBtn button {
+  height: 40px;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  margin: 1%;
+}
+
+.courseAndRegBtn button:hover {
+  background-color: darkorange;
+  color: black;
+  border: 1px solid darkorange;
+}
+
+.courseAndRegBtn div:nth-child(2) {
+  margin-left: 39%;
+}
