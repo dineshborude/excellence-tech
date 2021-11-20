@@ -1,0 +1,60 @@
+.curriCullamBox {
+  height: 600px;
+  width: 100%;
+  margin: auto;
+  border: 1px solid red;
+}
+
+.swTesting {
+  display: block;
+  margin-top: 1%;
+  height: 290px;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.lhsCurrBox {
+  display: inline-block;
+  height: 280px;
+  width: 20%;
+  border: 1px solid black;
+  text-align: center;
+  /* background-color: red; */
+}
+
+.lhsCurrBox img {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.lhsCurrBox p {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: -30px;
+}
+
+.rhsCurrBox {
+  display: inline-block;
+  height: 280px;
+  width: 78%;
+  border: 1px solid black;
+}
+
+.innerCB {
+  display: flex;
+  gap: 1%;
+}
+
+.innerCB > div {
+  width: 16%;
+  height: 280px;
+  border: 1px solid red;
+}
+
+. .webDev {
+  margin-top: 1%;
+  height: 290px;
+  width: 100%;
+  border: 1px solid blue;
+}
