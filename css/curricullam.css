@@ -1,60 +1,44 @@
-.curriCullamBox {
-  height: 600px;
+.courseTypes {
+  height: 100px;
   width: 100%;
-  margin: auto;
-  border: 1px solid red;
-}
-
-.swTesting {
-  display: block;
-  margin-top: 1%;
-  height: 290px;
-  width: 100%;
-  border: 1px solid blue;
-}
-
-.lhsCurrBox {
-  display: inline-block;
-  height: 280px;
-  width: 20%;
-  border: 1px solid black;
+  border: 1px solid transparent;
+  margin-top: 5px;
   text-align: center;
-  /* background-color: red; */
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 10px;
+  color: whitesmoke;
+  background-color: darkorange;
 }
 
-.lhsCurrBox img {
-  height: 250px;
-  width: 100%;
-  margin-bottom: 10%;
+.courseTypes p:nth-child(2) {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
 }
 
-.lhsCurrBox p {
-  font-size: 32px;
-  font-weight: 600;
-  margin-top: -30px;
-}
-
-.rhsCurrBox {
-  display: inline-block;
-  height: 280px;
-  width: 78%;
-  border: 1px solid black;
-}
-
-.innerCB {
+.curriBox {
   display: flex;
-  gap: 1%;
+  margin: auto;
+  height: 450px;
+  width: 90%;
+  /* border: 1px solid red; */
+  flex-wrap: wrap;
+  gap: 2%;
 }
 
-.innerCB > div {
-  width: 16%;
-  height: 280px;
-  border: 1px solid red;
-}
-
-. .webDev {
+.curriBox > div {
+  height: 200px;
+  width: 30%;
   margin-top: 1%;
-  height: 290px;
-  width: 100%;
-  border: 1px solid blue;
+  margin-left: 1%;
+  border: 1px solid;
 }
+
+.curriBox img {
+  width: 100%;
+}
+
+/* .langBoxes {
+  background-color: cadetblue;
+} */
