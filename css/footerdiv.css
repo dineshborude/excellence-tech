@@ -1,0 +1,56 @@
+.footerDiv {
+  height: 610px;
+  width: 100%;
+  background-color: rgb(33, 35, 39);
+}
+
+.flex {
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+}
+
+.flex > div {
+  margin-top: 4%;
+  height: 160px;
+  width: 22%;
+  /* border-left: 1px solid gray; */
+}
+
+.fafes {
+  height: 50px;
+  width: 60px;
+  text-align: center;
+  padding-top: 2%;
+  background-color: white;
+  margin-left: 40%;
+}
+.fafes i {
+  font-size: 34px;
+}
+.fafes:hover {
+  background-color: darkorange;
+}
+
+.caption {
+  text-align: center;
+}
+
+.caption p:nth-child(1) {
+  font-size: 22px;
+  color: white;
+  line-height: 2%;
+}
+
+.caption p:nth-child(2) {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
+
+/* .hrLine {
+  display: flex;
+  height: 61px;
+  /* width: 459px; */
+} */
+

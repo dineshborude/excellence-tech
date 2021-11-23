@@ -1,0 +1,24 @@
+.parallaxContainer {
+  height: 532px;
+  width: 100%;
+  background-image: url(http://www.training.topperskills.com/wp-content/uploads/2017/08/topperskills-para-bg.jpg?id=2624);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.parallaxContainer p {
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 15%;
+  color: white;
+}
+
+.parallaxContainer button {
+  height: 60px;
+  width: 200px;
+  background-color: darkorange;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
