@@ -1,5 +1,5 @@
 .footerDiv {
-  height: 610px;
+  height: 630px;
   width: 100%;
   background-color: rgb(33, 35, 39);
 }
@@ -48,9 +48,60 @@
   text-align: center;
 }
 
-/* .hrLine {
+.actualFooter {
   display: flex;
-  height: 61px;
-  /* width: 459px; */
-} */
+  height: 350px;
+  width: 100%;
+  /* border: 1px solid red; */
+  /* text-align: center; */
+  color: white;
+}
 
+.actualFooter > div {
+  margin: auto;
+  margin-top: 2%;
+  height: 300px;
+  width: 22%;
+  /* border: 1px solid; */
+}
+
+.actualFooter p {
+  text-align: justify;
+  color: gray;
+  line-height: 140%;
+}
+
+.actualFooter ul {
+  text-align: left;
+  color: gray;
+  line-height: 200%;
+}
+
+.actualFooter ul a {
+  text-decoration: none;
+  color: gray;
+}
+
+.actualFooter ul a:hover {
+  color: darkorange;
+}
+
+.actualFooter li:hover {
+  color: darkorange;
+}
+
+#githubLink {
+  color: white;
+  margin-left: 47%;
+}
+
+#githubLink a {
+  color: white;
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+#githubLink a:hover {
+  color: white;
+}
